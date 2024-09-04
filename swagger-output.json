@@ -1,0 +1,365 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Pijar Mahir Backend API Clone",
+    "description": "Pijar Mahir Backend API Clone",
+    "version": "1.0.0"
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/categories/": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "description": "Endpoint to get all category ",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/courses/": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "description": "Endpoint to get courses",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "coursetype",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/courses/contents/{id}": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "description": "Endpoint to get course contents",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/courses/collections": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "description": "Endpoint to get course collection",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Course"
+        ],
+        "description": "Endpoint to add new collection",
+        "parameters": [
+          {
+            "name": "obj",
+            "in": "body",
+            "description": "Collection data",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/AddCollection"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/courses/collections/{slug}": {
+      "post": {
+        "tags": [
+          "Course"
+        ],
+        "description": "Endpoint to add courses to a collection",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "obj",
+            "in": "body",
+            "description": "course ids",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/AddCoursesToCollection"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Course"
+        ],
+        "description": "Endpoint to delete course collection",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/courses/collections/{slug}/remove-course": {
+      "delete": {
+        "tags": [
+          "Course"
+        ],
+        "description": "Endpoint to remove course from a collection",
+        "parameters": [
+          {
+            "name": "slug",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "obj",
+            "in": "body",
+            "description": "Course id",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/RemoveCourseFromCollection"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "404": {
+            "description": "Not Found"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/reviews/testimoni": {
+      "get": {
+        "tags": [
+          "Review"
+        ],
+        "description": "Endpoint to get all user testimoni",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/reviews/{id?}": {
+      "get": {
+        "tags": [
+          "Review"
+        ],
+        "description": "Endpoint to get user course reviews",
+        "parameters": [
+          {
+            "name": "id?",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/partners/": {
+      "get": {
+        "tags": [
+          "Partner"
+        ],
+        "description": "Endpoint to get all course partners",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "AddCollection": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "example": "Best Seller"
+        },
+        "slug": {
+          "type": "string",
+          "example": "best-seller"
+        },
+        "numOrder": {
+          "type": "number",
+          "example": 1
+        }
+      },
+      "required": [
+        "name",
+        "slug",
+        "numOrder"
+      ]
+    },
+    "AddCoursesToCollection": {
+      "type": "object",
+      "properties": {
+        "coursesId": {
+          "type": "array",
+          "example": [
+            199,
+            4863
+          ],
+          "items": {
+            "type": "number"
+          }
+        }
+      },
+      "required": [
+        "coursesId"
+      ]
+    },
+    "RemoveCourseFromCollection": {
+      "type": "object",
+      "properties": {
+        "coursesId": {
+          "type": "number",
+          "example": 199
+        }
+      },
+      "required": [
+        "coursesId"
+      ]
+    }
+  }
+}

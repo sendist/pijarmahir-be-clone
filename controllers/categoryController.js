@@ -1,11 +1,10 @@
-const { getDb } = require("../db");
+const Category = require("../models/category");
 
 const getAllCategory = async (req, res) => {
+  /*  #swagger.tags = ['Category']
+      #swagger.description = 'Endpoint to get all category '  */
   try {
-    const db = getDb();
-    const col = db.collection("categories");
-
-    const result = await col.find().toArray();
+    const result = await Category.find().exec();
 
     res.status(200).json({
       data: result,
