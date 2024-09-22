@@ -1,0 +1,376 @@
+[{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05cb"
+  },
+  "id": 9,
+  "name": "Mahir Marketing",
+  "slug": "mahir-marketing"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05cc"
+  },
+  "id": 83,
+  "name": "UKM",
+  "slug": "wirausaha"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05cd"
+  },
+  "id": 5,
+  "name": "Mahir Teknologi",
+  "slug": "mahir-teknologi"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05ce"
+  },
+  "id": 84,
+  "name": "Mahir Telekomunikasi",
+  "slug": "mahir-telekomunikasi"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05cf"
+  },
+  "id": 113,
+  "name": "Komunikasi",
+  "slug": "komunikasi"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d0"
+  },
+  "id": 2,
+  "name": "Mahir Digital",
+  "slug": "mahir-digital"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d1"
+  },
+  "id": 10,
+  "name": "Pengembangan Diri",
+  "slug": "pengembangan-diri"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d2"
+  },
+  "id": 131,
+  "name": "Pertanian",
+  "slug": "pertanian"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d3"
+  },
+  "id": 102,
+  "name": "Bahasa Asing",
+  "slug": "bahasa-asing"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d4"
+  },
+  "id": 125,
+  "name": "Pengembangan Diri",
+  "slug": "pengembangan-diri"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d5"
+  },
+  "id": 107,
+  "name": "Investasi dan keuangan",
+  "slug": "investasi-dan-keuangan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d6"
+  },
+  "id": 126,
+  "name": "Penjualan",
+  "slug": "penjualan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d7"
+  },
+  "id": 136,
+  "name": "Teknologi, informatika",
+  "slug": "teknologi-informatika"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d8"
+  },
+  "id": 79,
+  "name": "Mahir Bahasa",
+  "slug": "mahir-bahasa"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05d9"
+  },
+  "id": 128,
+  "name": "Perikanan",
+  "slug": "perikanan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05da"
+  },
+  "id": 123,
+  "name": "Pemasaran",
+  "slug": "pemasaran"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05db"
+  },
+  "id": 104,
+  "name": "Desain grafis, ilustrasi, animasi",
+  "slug": "desain-grafis-ilustrasi-animasi"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05dc"
+  },
+  "id": 98,
+  "name": "Administrasi dan tata usaha",
+  "slug": "administrasi-dan-tata-usaha"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05dd"
+  },
+  "id": 115,
+  "name": "Makanan/minuman kemasan",
+  "slug": "makanan-minuman-kemasan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05de"
+  },
+  "id": 134,
+  "name": "Ritel/Perdagangan",
+  "slug": "ritel-perdagangan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05df"
+  },
+  "id": 99,
+  "name": "Akuntansi pajak",
+  "slug": "akuntansi-pajak"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e0"
+  },
+  "id": 140,
+  "name": "Lain-lain",
+  "slug": "lain-lain"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e1"
+  },
+  "id": 120,
+  "name": "Operasi, gudang",
+  "slug": "operasi-gudang"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e2"
+  },
+  "id": 101,
+  "name": "Asuransi, perbankan",
+  "slug": "asuransi-perbankan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e3"
+  },
+  "id": 103,
+  "name": "Conten Creation, Media Sosial",
+  "slug": "conten-creation-media-sosial"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e4"
+  },
+  "id": 108,
+  "name": "Kecantikan",
+  "slug": "kecantikan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e5"
+  },
+  "id": 124,
+  "name": "Pemeliharaan, Perbaikan, Servis",
+  "slug": "pemeliharaan-perbaikan-servis"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e6"
+  },
+  "id": 78,
+  "name": "Prakerja",
+  "slug": "kartu-prakerja"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e7"
+  },
+  "id": 135,
+  "name": "Sumber Daya manusia",
+  "slug": "sumber-daya-manusia"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e8"
+  },
+  "id": 122,
+  "name": "Pariwisata, Perhotelan, Restoran",
+  "slug": "pariwisata-perhotelan-restoran"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05e9"
+  },
+  "id": 117,
+  "name": "Media, kepenulisan, reportase",
+  "slug": "media-kepenulisan-reportase"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05ea"
+  },
+  "id": 129,
+  "name": "Perkebunan",
+  "slug": "perkebunan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05eb"
+  },
+  "id": 116,
+  "name": "Manufaktur",
+  "slug": "manufaktur"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05ec"
+  },
+  "id": 100,
+  "name": "Arsitektur, desain interior, kontraktor",
+  "slug": "arsitektur-desain-interior-kontraktor"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05ed"
+  },
+  "id": 118,
+  "name": "Merek, Citra visual",
+  "slug": "merek-citra-visual"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05ee"
+  },
+  "id": 114,
+  "name": "Kuliner",
+  "slug": "kuliner"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05ef"
+  },
+  "id": 132,
+  "name": "Peternakan",
+  "slug": "peternakan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f0"
+  },
+  "id": 111,
+  "name": "Kesenian, kriya",
+  "slug": "kesenian-kriya"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f1"
+  },
+  "id": 106,
+  "name": "Garment, Konveksi",
+  "slug": "garment-konveksi"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f2"
+  },
+  "id": 112,
+  "name": "keuangan pribadi",
+  "slug": "keuangan-pribadi"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f3"
+  },
+  "id": 121,
+  "name": "Otomotif",
+  "slug": "otomotif"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f4"
+  },
+  "id": 127,
+  "name": "Perawatan",
+  "slug": "perawatan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f5"
+  },
+  "id": 110,
+  "name": "Kesehatan",
+  "slug": "kesehatan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f6"
+  },
+  "id": 130,
+  "name": "Pertambangan",
+  "slug": "pertambangan"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f7"
+  },
+  "id": 139,
+  "name": "Transportasi",
+  "slug": "transportasi"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f8"
+  },
+  "id": 119,
+  "name": "Musik, audio",
+  "slug": "musik-audio"
+},
+{
+  "_id": {
+    "$oid": "66d678e435d6570cb9ce05f9"
+  },
+  "id": 133,
+  "name": "Produktivitas diri",
+  "slug": "produktivitas-diri"
+}]

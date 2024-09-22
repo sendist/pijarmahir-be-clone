@@ -1,0 +1,472 @@
+[{
+  "_id": {
+    "$oid": "66d804965f32fc6b3a6adc89"
+  },
+  "name": "Best Seller",
+  "slug": "best-seller",
+  "numOrder": 1,
+  "courses": [
+    {
+      "_id": {
+        "$oid": "5f329d5f86ffc3001199d142"
+      },
+      "id": 199,
+      "shortname": "UxP",
+      "categoryid": [
+        2,
+        2
+      ],
+      "categorysortorder": null,
+      "fullname": "Prinsip UX (User Experience)",
+      "summary": "<p>Pelatihan ini bukan untuk Program Kartu Pra Kerja dan disiapkan sertifikat di akhir pelatihan.</p><p>User dapat memahami pengetahuan tentang <b>User Experience </b>dalam penerapan sehari-hari.&nbsp;&nbsp;<br></p><p>Materi ini terbagi dalam beberapa sesi, yaitu : Pendahuluan, Pre Test, UX Prinsiple, UX Knowlege, UX Proses dan Post Test.&nbsp;</p><p>Pre Test dan Post Test dapat dilakukan sekali saja, diharapkan User mempelajari dengan seksama seluruh materi yang tersedia agar mendapatkan hasil maksimal.&nbsp;</p>",
+      "summaryformat": 1,
+      "idnumber": "",
+      "startdate": "2020-02-26T17:00:00.000Z",
+      "enddate": 0,
+      "timecreated": "2020-02-26T02:08:33.000Z",
+      "timemodified": "2023-07-17T10:32:45.000Z",
+      "visible": 1,
+      "price": 300000,
+      "rating": {
+        "_id": 199,
+        "rating": 5,
+        "totalRater": 2
+      },
+      "thumbnail": "course/199-ux1.jpg",
+      "teacher": {
+        "id": "437",
+        "fullname": "Ir. Bengris",
+        "email": null,
+        "profileimageurl": "teacher/437.jpg",
+        "slug": "ir-bengris"
+      },
+      "enrolledusers": 2,
+      "tag": [
+        "paid"
+      ],
+      "isVoucher": false,
+      "duration": null,
+      "externalUrl": null,
+      "commentAvaliable": false,
+      "owned": false,
+      "priceAfter": 300000,
+      "sale": 0,
+      "webUrl": "https://pijarmahir.id/materi/199",
+      "whislisted": false,
+      "moodleCode": "moodleMaster",
+      "completionnotify": 0,
+      "courseformatoptions": [
+        {
+          "name": "hiddensections",
+          "value": 0
+        },
+        {
+          "name": "hidetabsbar",
+          "value": 0
+        },
+        {
+          "name": "coursedisplay",
+          "value": 0
+        },
+        {
+          "name": "templatetopic",
+          "value": 0
+        },
+        {
+          "name": "templatetopic_icons",
+          "value": 0
+        }
+      ],
+      "customfields": [
+        {
+          "name": "Course Price",
+          "shortname": "price",
+          "type": "text",
+          "value": "300000"
+        },
+        {
+          "name": "Duration",
+          "shortname": "duration",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Voucher",
+          "shortname": "voucher",
+          "type": "checkbox",
+          "value": "No"
+        },
+        {
+          "name": "Link",
+          "shortname": "link",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Konten 1",
+          "shortname": "konten1",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Konten 2",
+          "shortname": "konten2",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Konten 3",
+          "shortname": "konten3",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Konten 4",
+          "shortname": "konten4",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "category1",
+          "shortname": "category1",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "category2",
+          "shortname": "category2",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "category3",
+          "shortname": "category3",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "defaultgroupingid": 0,
+      "displayname": "UxP Prinsip UX (User Experience)",
+      "enablecompletion": 1,
+      "forcetheme": "",
+      "format": "onetopic",
+      "groupmode": 0,
+      "groupmodeforce": 0,
+      "hiddensections": 0,
+      "lang": "",
+      "maxbytes": 0,
+      "newsitems": 0,
+      "numsections": 7,
+      "showgrades": 1,
+      "showreports": 0,
+      "coursetype": {
+        "id": "a",
+        "name": "Pembelajaran Mandiri"
+      },
+      "parentId": null,
+      "url_lp": null,
+      "categories": [
+        {
+          "id": 2,
+          "name": "Mahir Digital",
+          "slug": "mahir-digital"
+        }
+      ],
+      "location": null,
+      "pgdCategory": null,
+      "community": 0,
+      "nonMarketplace": false,
+      "slugCourse": "prinsip-ux-user-experience",
+      "keyword": "prinsip ux (user experience) ir. bengris mahir digital",
+      "level": null,
+      "sku": "",
+      "haveEvent": false,
+      "locationEvent": [],
+      "schema_normal": false,
+      "education": null,
+      "max_age": null,
+      "min_age": null,
+      "occupancy_category": null,
+      "interest": "UI/UX",
+      "subInterest": "User Experience",
+      "isDuplicate": false,
+      "isHidden": false,
+      "wishlisted": false
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d805ca10b3e797360a9d34"
+  },
+  "name": "Flash Sale",
+  "slug": "flash-sale",
+  "numOrder": 2,
+  "courses": [
+    {
+      "_id": {
+        "$oid": "66ce873ca9b2db0158c65c20"
+      },
+      "id": 4863,
+      "isDuplicate": false,
+      "categories": [
+        {
+          "id": 9,
+          "name": "Mahir Marketing",
+          "slug": "mahir-marketing"
+        }
+      ],
+      "categoryid": [
+        9
+      ],
+      "categorysortorder": null,
+      "community": 0,
+      "coursetype": {
+        "id": "a",
+        "name": "Pembelajaran Mandiri"
+      },
+      "duration": null,
+      "education": null,
+      "enddate": 0,
+      "enrolledusers": 44,
+      "externalUrl": null,
+      "fullname": "Cara Media Sosial Tahu Pikiran Kamu - Cepat Mahir",
+      "haveEvent": false,
+      "idnumber": "",
+      "interest": null,
+      "isHidden": false,
+      "isVoucher": false,
+      "keyword": "cara media sosial tahu pikiran kamu - cepat mahir pijar mahir mahir marketing",
+      "level": null,
+      "location": null,
+      "locationEvent": [],
+      "max_age": null,
+      "min_age": null,
+      "moodleCode": "moodleMaster",
+      "nonMarketplace": false,
+      "occupancy_category": null,
+      "parentId": null,
+      "pgdCategory": null,
+      "price": 0,
+      "rating": {
+        "totalRater": 2,
+        "rating": 5
+      },
+      "schema_normal": false,
+      "shortname": "PM-PRA-MON-028",
+      "sku": "",
+      "slugCourse": "cara-media-sosial-tahu-cepat-mahir",
+      "startdate": "2024-08-28T17:00:00.000Z",
+      "subInterest": null,
+      "summary": "Beneran ini Medsos bisa baca pikiran kita? Waduh<br><br>Ini namanya Recommendation Technology.<br>Ini karena teknologi yaa<br>Video ini akan jelaskan cara kerjanya<br>",
+      "summaryformat": 1,
+      "tag": [
+        "new",
+        "free"
+      ],
+      "teacher": {
+        "id": "448",
+        "fullname": "Pijar Mahir",
+        "email": null,
+        "profileimageurl": "teacher/448.jpg",
+        "slug": "pijar-mahir"
+      },
+      "thumbnail": "course/default.jpg",
+      "timecreated": "2024-08-28T02:10:52.000Z",
+      "timemodified": "2024-08-28T02:10:52.000Z",
+      "url_lp": null,
+      "visible": 1,
+      "priceAfter": 0,
+      "wishlisted": false
+    },
+    {
+      "_id": {
+        "$oid": "5f329d5f86ffc3001199d142"
+      },
+      "id": 199,
+      "shortname": "UxP",
+      "categoryid": [
+        2,
+        2
+      ],
+      "categorysortorder": null,
+      "fullname": "Prinsip UX (User Experience)",
+      "summary": "<p>Pelatihan ini bukan untuk Program Kartu Pra Kerja dan disiapkan sertifikat di akhir pelatihan.</p><p>User dapat memahami pengetahuan tentang <b>User Experience </b>dalam penerapan sehari-hari.&nbsp;&nbsp;<br></p><p>Materi ini terbagi dalam beberapa sesi, yaitu : Pendahuluan, Pre Test, UX Prinsiple, UX Knowlege, UX Proses dan Post Test.&nbsp;</p><p>Pre Test dan Post Test dapat dilakukan sekali saja, diharapkan User mempelajari dengan seksama seluruh materi yang tersedia agar mendapatkan hasil maksimal.&nbsp;</p>",
+      "summaryformat": 1,
+      "idnumber": "",
+      "startdate": "2020-02-26T17:00:00.000Z",
+      "enddate": 0,
+      "timecreated": "2020-02-26T02:08:33.000Z",
+      "timemodified": "2023-07-17T10:32:45.000Z",
+      "visible": 1,
+      "price": 300000,
+      "rating": {
+        "_id": 199,
+        "rating": 5,
+        "totalRater": 2
+      },
+      "thumbnail": "course/199-ux1.jpg",
+      "teacher": {
+        "id": "437",
+        "fullname": "Ir. Bengris",
+        "email": null,
+        "profileimageurl": "teacher/437.jpg",
+        "slug": "ir-bengris"
+      },
+      "enrolledusers": 2,
+      "tag": [
+        "paid"
+      ],
+      "isVoucher": false,
+      "duration": null,
+      "externalUrl": null,
+      "commentAvaliable": false,
+      "owned": false,
+      "priceAfter": 300000,
+      "sale": 0,
+      "webUrl": "https://pijarmahir.id/materi/199",
+      "whislisted": false,
+      "moodleCode": "moodleMaster",
+      "completionnotify": 0,
+      "courseformatoptions": [
+        {
+          "name": "hiddensections",
+          "value": 0
+        },
+        {
+          "name": "hidetabsbar",
+          "value": 0
+        },
+        {
+          "name": "coursedisplay",
+          "value": 0
+        },
+        {
+          "name": "templatetopic",
+          "value": 0
+        },
+        {
+          "name": "templatetopic_icons",
+          "value": 0
+        }
+      ],
+      "customfields": [
+        {
+          "name": "Course Price",
+          "shortname": "price",
+          "type": "text",
+          "value": "300000"
+        },
+        {
+          "name": "Duration",
+          "shortname": "duration",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Voucher",
+          "shortname": "voucher",
+          "type": "checkbox",
+          "value": "No"
+        },
+        {
+          "name": "Link",
+          "shortname": "link",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Konten 1",
+          "shortname": "konten1",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Konten 2",
+          "shortname": "konten2",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Konten 3",
+          "shortname": "konten3",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "Konten 4",
+          "shortname": "konten4",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "category1",
+          "shortname": "category1",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "category2",
+          "shortname": "category2",
+          "type": "text",
+          "value": null
+        },
+        {
+          "name": "category3",
+          "shortname": "category3",
+          "type": "text",
+          "value": null
+        }
+      ],
+      "defaultgroupingid": 0,
+      "displayname": "UxP Prinsip UX (User Experience)",
+      "enablecompletion": 1,
+      "forcetheme": "",
+      "format": "onetopic",
+      "groupmode": 0,
+      "groupmodeforce": 0,
+      "hiddensections": 0,
+      "lang": "",
+      "maxbytes": 0,
+      "newsitems": 0,
+      "numsections": 7,
+      "showgrades": 1,
+      "showreports": 0,
+      "coursetype": {
+        "id": "a",
+        "name": "Pembelajaran Mandiri"
+      },
+      "parentId": null,
+      "url_lp": null,
+      "categories": [
+        {
+          "id": 2,
+          "name": "Mahir Digital",
+          "slug": "mahir-digital"
+        }
+      ],
+      "location": null,
+      "pgdCategory": null,
+      "community": 0,
+      "nonMarketplace": false,
+      "slugCourse": "prinsip-ux-user-experience",
+      "keyword": "prinsip ux (user experience) ir. bengris mahir digital",
+      "level": null,
+      "sku": "",
+      "haveEvent": false,
+      "locationEvent": [],
+      "schema_normal": false,
+      "education": null,
+      "max_age": null,
+      "min_age": null,
+      "occupancy_category": null,
+      "interest": "UI/UX",
+      "subInterest": "User Experience",
+      "isDuplicate": false,
+      "isHidden": false,
+      "wishlisted": false
+    }
+  ],
+  "__v": 0
+}]
